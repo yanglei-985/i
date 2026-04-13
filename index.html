@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Codex 如何帮助学习英语与教学英语</title>
+  <style>
+    :root{
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --text:#172033;
+      --muted:#4b5875;
+      --line:#dbe3f4;
+      --brand:#2d5bff;
+      --ok:#0f8c57;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    .wrap{width:min(1080px,92vw);margin:28px auto 48px}
+    .hero{background:linear-gradient(120deg,#1d2f66,#2d5bff 55%,#4b7bff);color:#fff;padding:24px;border-radius:16px;box-shadow:0 12px 28px rgba(23,32,51,.18)}
+    h1{margin:0 0 8px;font-size:clamp(1.4rem,2.6vw,2.2rem)}
+    .sub{margin:0;opacity:.95}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+    h2{font-size:1.08rem;margin:0 0 8px;color:#20315e}
+    ul{margin:0;padding-left:1.1rem}
+    li{margin:.28rem 0}
+    .pill{display:inline-block;font-size:.82rem;padding:2px 8px;border-radius:999px;background:#e8eeff;color:#264cdd;margin-bottom:6px}
+    .good{color:var(--ok);font-weight:700}
+    .table{width:100%;border-collapse:collapse;margin-top:8px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+    .table th,.table td{border-bottom:1px solid var(--line);padding:10px 12px;vertical-align:top;text-align:left}
+    .table th{background:#f2f6ff;color:#1f336d}
+    .table tr:last-child td{border-bottom:none}
+    code{background:#f1f5ff;border:1px solid #dbe6ff;padding:1px 6px;border-radius:6px}
+    .footer{margin-top:14px;color:var(--muted);font-size:.92rem}
+    @media (max-width:860px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Codex 能做什么：帮助学习英语 + 教学英语</h1>
+      <p class="sub">一页看懂：适合转给朋友。包括能力边界、实用场景、示例提示词、30分钟上手流程。</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <span class="pill">学习者视角</span>
+        <h2>Codex 如何帮助“学英语”</h2>
+        <ul>
+          <li><b>纠错与改写：</b>修正语法、时态、搭配，给出自然表达。</li>
+          <li><b>分级解释：</b>同一知识点可按 A2/B1/B2/C1 难度解释。</li>
+          <li><b>口语训练：</b>角色扮演面试/旅行/课堂对话，逐轮反馈。</li>
+          <li><b>写作训练：</b>按 IELTS/托福/学术写作标准批改与重写。</li>
+          <li><b>词汇与搭配：</b>做同义改写、词族扩展、collocation 清单。</li>
+          <li><b>听读辅助：</b>总结长文、提炼关键词、出理解题。</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="pill">教师视角</span>
+        <h2>Codex 如何帮助“教英语”</h2>
+        <ul>
+          <li><b>备课提速：</b>快速生成教案、分层任务、板书要点。</li>
+          <li><b>出题与讲评：</b>按知识点生成练习、答案、错因分析。</li>
+          <li><b>差异化教学：</b>同一内容生成基础版/提升版/冲刺版。</li>
+          <li><b>课堂活动：</b>辩论题、口语卡片、情景任务一键生成。</li>
+          <li><b>作文批改模板：</b>统一反馈维度，提高批改一致性。</li>
+          <li><b>家校沟通：</b>自动生成学习报告与改进建议。</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="pill">常见误解</span>
+        <h2>它不是“直接替代老师”</h2>
+        <ul>
+          <li>Codex 擅长 <b>加速</b> 反馈、练习和内容生产。</li>
+          <li>课堂引导、情绪支持、学习动机管理仍需要人来做。</li>
+          <li>最佳方式：<span class="good">老师/学习者 + Codex 协作</span>。</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="pill">能力边界</span>
+        <h2>使用时要注意</h2>
+        <ul>
+          <li>对高风险考试/标准，建议二次核对评分标准。</li>
+          <li>口音与真实听力场景，建议配合真实音频材料。</li>
+          <li>个别文化语境表达需人工把关。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top:14px">
+      <h2>30 分钟快速上手（给你朋友）</h2>
+      <table class="table">
+        <thead><tr><th>步骤</th><th>要做什么</th><th>示例提示词（可直接复制）</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>1. 诊断</td>
+            <td>先让 Codex 判断当前水平与短板</td>
+            <td><code>请用5题测试我的英语水平，并判断我主要短板（语法/词汇/口语/写作）。</code></td>
+          </tr>
+          <tr>
+            <td>2. 定目标</td>
+            <td>把目标具体化（分数/场景/时长）</td>
+            <td><code>我8周后要参加雅思，请给我每周计划（每天45分钟）。</code></td>
+          </tr>
+          <tr>
+            <td>3. 练输出</td>
+            <td>重点练口语和写作的“可输出”能力</td>
+            <td><code>和我做一轮英文面试，逐句纠错，并给更自然表达。</code></td>
+          </tr>
+          <tr>
+            <td>4. 复盘</td>
+            <td>每次练习后总结错误模式</td>
+            <td><code>总结我今天的10个高频错误，给最短纠正规则和3个替换句。</code></td>
+          </tr>
+          <tr>
+            <td>5. 固化</td>
+            <td>把错误变成下次练习清单</td>
+            <td><code>把这些错误做成明天15分钟复习卡片（中英对照）。</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top:14px">
+      <h2>教师可直接用的 8 个提示词</h2>
+      <ul>
+        <li><code>按 B1 水平生成“过去完成时”45分钟教案，含导入、操练、产出、作业。</code></li>
+        <li><code>根据这篇阅读材料生成10道题：主旨、细节、推断各占比例并附答案。</code></li>
+        <li><code>把同一课文改成三档作业：基础/标准/挑战。</code></li>
+        <li><code>给这份学生作文做四维评分（任务完成、连贯、词汇、语法）并给改进建议。</code></li>
+        <li><code>设计一节“口语辩论课”，主题是 AI 与教育，给流程和评分表。</code></li>
+        <li><code>为本周课堂生成5分钟暖场活动（英语指令）。</code></li>
+        <li><code>把这份语法讲义改写成学生易懂版（中英双语）。</code></li>
+        <li><code>根据学生错题，生成下节课的针对性复习测验。</code></li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:14px">
+      <h2>一句话总结</h2>
+      <p><b>Codex 最有价值的地方：</b>把“内容准备、即时反馈、分层练习、持续复盘”自动化，让学习英语和教学英语都更快、更稳定。</p>
+    </section>
+
+    <p class="footer">文件用途：给朋友快速理解 Codex 在英语学习/教学上的实操价值。</p>
+  </main>
+</body>
+</html>
